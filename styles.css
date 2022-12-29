@@ -1,0 +1,21 @@
+.container {
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {
+    width: 400px;
+}
+
+.card {
+    /* height: 200px; */
+    /* border: 1px solid red; */
+    /* padding: 10px; */
+    padding-left: 40px;
+}
+
+p {
+    font-size: 15px;
+}
